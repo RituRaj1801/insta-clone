@@ -11,7 +11,7 @@ export default function Dashboard() {
       try {
         const authToken = localStorage.getItem("authToken");
         console.log(authToken);
-
+ 
         const response = await fetch(`${process.env.REACT_APP_API_URL}post/get_post`, {
           method: "POST",
           headers: { "Content-Type": "application/json" },
