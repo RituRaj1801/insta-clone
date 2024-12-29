@@ -1,0 +1,38 @@
+.not-found {
+    text-align: center;
+    margin: 0;
+    padding: 100px 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .not-found h1 {
+    font-size: 96px;
+    font-weight: bold;
+    color: #ff6f61;
+  }
+  
+  .not-found h2 {
+    font-size: 36px;
+    margin: 10px 0;
+  }
+  
+  .not-found p {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  
+  .back-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .back-home:hover {
+    background-color: #e95b51;
+  }
+  

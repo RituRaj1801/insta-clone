@@ -1,0 +1,88 @@
+/* Post.css */
+
+/* Container Styles */
+.post {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px auto; /* Center the post */
+  background-color: #fff; /* White background */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  overflow: hidden; /* Ensure content stays within bounds */
+  border: 1px solid #ddd; /* Light border */
+  font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+.post-header {
+  padding: 15px;
+  border-bottom: 1px solid #ddd; /* Separate header from body */
+}
+
+/* Profile Picture */
+.profile-pic {
+  display: block;
+}
+
+/* Media Section */
+.media {
+  width: 100%;
+  height: auto;
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Keeps image aspect ratio */
+}
+
+.post-video {
+  width: 100%;
+  height: auto;
+  border: none;
+  outline: none;
+}
+
+/* Footer Section */
+.post-footer {
+  padding: 15px;
+}
+
+.post-actions {
+  margin-bottom: 10px;
+}
+
+.like-btn {
+  background: none;
+  border: none;
+  color: #ff5252;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.like-btn:hover {
+  color: #ff1744;
+}
+
+.post-caption {
+  font-size: 14px;
+  color: #333;
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .post {
+      margin: 10px;
+  }
+
+  .like-btn {
+      font-size: 14px;
+  }
+
+  .post-caption {
+      font-size: 13px;
+  }
+}

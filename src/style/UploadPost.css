@@ -1,0 +1,83 @@
+/* UploadPost.css */
+.post-uploader {
+  /* Adjust width and margin as needed */
+  width: 400px;
+  margin: 50px auto; /* Center horizontally with margin */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  background-color: #fff; /* White background */
+}
+
+.upload-area {
+  border: 1px dashed #ccc; /* Dashed border for placeholder */
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.preview-image {
+  max-width: 100%;
+  max-height: 300px;
+  object-fit: cover; /* Ensure image fills the container */
+  border-radius: 8px; /* Rounded corners for image */
+  margin-bottom: 10px;
+}
+
+.caption-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical; /* Allow vertical resizing */
+  min-height: 80px;
+  font-family: inherit; /* Inherit font from parent */
+}
+
+.upload-button {
+  background-color: #0095f6; /* Instagram blue */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold; /* Bold text for emphasis */
+  transition: background-color 0.2s ease-in-out; /* Smooth hover effect */
+}
+
+.upload-button:hover {
+  background-color: #007bff; /* Darker blue on hover */
+}
+
+.upload-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100px;
+}
+
+.upload-placeholder p {
+  margin-bottom: 10px;
+  color: #ccc; /* Lighter text for placeholder */
+  font-weight: bold; /* Emphasize placeholder text */
+}
+
+.success-message,
+.error-message {
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.success-message {
+  background-color: #d4edda; /* Green background for success */
+  color: #155723; /* Dark green text */
+}
+
+.error-message {
+  background-color: #f8d7da; /* Red background for error */
+  color: #721c24; /* Dark red text */
+}
